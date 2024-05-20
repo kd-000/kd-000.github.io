@@ -1,0 +1,126 @@
+.main {
+  width: 650px;
+  align-self: center;
+  margin-top: 60px;
+  line-height: 1.5;
+}
+
+.main-outer {
+  width: 100%;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  font-size: 45px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.h3-header {
+  text-decoration: underline; 
+  text-align: left;
+}
+
+.main-header-divider {
+  margin-top: 10px;
+  color: #ddd;
+  border:1px solid #ddd;
+}
+
+.main-header-divider-bottom {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #ddd;
+  border:1px solid #ddd;
+}
+
+.desc {
+  text-align: left;
+}
+
+a {
+  color: #007bff;
+}
+
+.list-items {
+  margin: 8px;
+}
+
+.tag-vb {
+  width: fit-content;
+  background-color: #7E3F8F;
+  color: white;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: calc(100% - 1px);
+}
+
+.tag-react {
+  width: fit-content;
+  background-color: #add8e6;
+  color: #333;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: calc(100% - 1px);
+}
+
+.tag-python {
+  width: fit-content;
+  background-color: #356c9b;
+  color: #FFF;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: calc(100% - 1px);
+}
+
+.tag-java {
+  width: fit-content;
+  background-color: #f0931c;
+  color: #FFF;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: calc(100% - 1px);
+}
+
+.tag-qc {
+  width: fit-content;
+  background-color: #FF7477 ;
+  color: #333;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: calc(100% - 1px);
+}
+
+.icons-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon-bottom-item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
