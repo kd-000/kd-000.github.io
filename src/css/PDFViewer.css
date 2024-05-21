@@ -1,0 +1,21 @@
+.main-outer-pdf {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin: 30px;
+    min-width: 850px;
+    height: 900px;
+}
+
+.main-pdf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 650px;
+    min-height: 850px;
+}
+  
