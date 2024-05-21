@@ -26,13 +26,13 @@ function App() {
         <h2 className="h2-header">Writing</h2>
         <ul>
             <li className='list-items'>
-              <a href="/blitz">Blitz - Software Documentation</a>
+              <a href={process.env.PUBLIC_URL + "/blitz"}>Blitz - Software Documentation</a>
             </li>
             <li className='list-items'>
-              <a href="/quantum1">Quantum Computing - Literature Review</a> <Tag type={'qc'}></Tag>
+              <a href={process.env.PUBLIC_URL + "/quantum1"}>Quantum Computing - Literature Review</a> <Tag type={'qc'}></Tag>
             </li>
             <li className='list-items'>
-              <a href="/quantum2">Will Quantum Computing escape the Theoretical?</a> <Tag type={'qc'}></Tag>
+              <a href={process.env.PUBLIC_URL + "/quantum2"}>Will Quantum Computing escape the Theoretical?</a> <Tag type={'qc'}></Tag>
             </li>
           </ul>
           <hr className='main-header-divider-bottom'></hr>

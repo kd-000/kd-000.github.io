@@ -17,27 +17,27 @@ import Blitz from './pages/Blitz';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: process.env.PUBLIC_URL + "/",
     element: <App></App>,
   },
   {
-    path: "/about",
+    path: process.env.PUBLIC_URL + "/about",
     element: <About/>
   },
   {
-    path: "/cv",
+    path: process.env.PUBLIC_URL + "/cv",
     element: <CV/>
   },
   {
-    path: "/quantum1",
+    path: process.env.PUBLIC_URL + "/quantum1",
     element: <Quantum1/>
   },
   {
-    path: "/quantum2",
+    path: process.env.PUBLIC_URL + "/quantum2",
     element: <Quantum2/>
   },
   {
-    path: "/blitz",
+    path: process.env.PUBLIC_URL + "/blitz",
     element: <Blitz/>
   },
 ]);
