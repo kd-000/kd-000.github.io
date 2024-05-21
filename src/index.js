@@ -21,23 +21,23 @@ const router = createBrowserRouter([
     element: <App></App>,
   },
   {
-    path: process.env.PUBLIC_URL + "/about",
+    path: process.env.PUBLIC_URL + "/about/",
     element: <About/>
   },
   {
-    path: process.env.PUBLIC_URL + "/cv",
+    path: process.env.PUBLIC_URL + "/cv/",
     element: <CV/>
   },
   {
-    path: process.env.PUBLIC_URL + "/quantum1",
+    path: process.env.PUBLIC_URL + "/quantum1/",
     element: <Quantum1/>
   },
   {
-    path: process.env.PUBLIC_URL + "/quantum2",
+    path: process.env.PUBLIC_URL + "/quantum2/",
     element: <Quantum2/>
   },
   {
-    path: process.env.PUBLIC_URL + "/blitz",
+    path: process.env.PUBLIC_URL + "/blitz/",
     element: <Blitz/>
   },
 ]);
