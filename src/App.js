@@ -26,13 +26,13 @@ function App() {
         <h2 className="h2-header">Writing</h2>
         <ul>
             <li className='list-items'>
-              <a href="">Blitz - Software Documentation</a>
+              <a href="/blitz">Blitz - Software Documentation</a>
             </li>
             <li className='list-items'>
-              <a href="">Quantum Computing - Literature Review</a> <Tag type={'qc'}></Tag>
+              <a href="/quantum1">Quantum Computing - Literature Review</a> <Tag type={'qc'}></Tag>
             </li>
             <li className='list-items'>
-              <a href="">Will Quantum Computing escape the Theoretical?</a> <Tag type={'qc'}></Tag>
+              <a href="/quantum2">Will Quantum Computing escape the Theoretical?</a> <Tag type={'qc'}></Tag>
             </li>
           </ul>
           <hr className='main-header-divider-bottom'></hr>
@@ -43,7 +43,7 @@ function App() {
           {/* <div style={{textAlign:"center"}}><a href="/about">About Me</a></div> */}
       </div>
       
-      <Banner></Banner>
+      {/* <Banner></Banner> */}
     </div>
   );
 }
