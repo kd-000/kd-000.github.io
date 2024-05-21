@@ -4,14 +4,13 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-
-
 import './css/index.css';
 import App from './App';
 import About from './pages/about';
 import CV from './pages/cv';
-import Quantum1 from './pages/Quantum-1';
-
+import Quantum1 from './pages/Quantum1';
+import Quantum2 from './pages/Quantum2';
+import Blitz from './pages/Blitz';
 
 
 
@@ -30,8 +29,16 @@ const router = createBrowserRouter([
     element: <CV/>
   },
   {
-    path: "/quantum-1",
+    path: "/quantum1",
     element: <Quantum1/>
+  },
+  {
+    path: "/quantum2",
+    element: <Quantum2/>
+  },
+  {
+    path: "/blitz",
+    element: <Blitz/>
   },
 ]);
 
