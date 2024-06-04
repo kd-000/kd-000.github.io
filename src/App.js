@@ -16,6 +16,9 @@ function App() {
         <hr className='main-header-divider'></hr>
         <h2 >Projects</h2>
           <ul>
+          <li className='list-items'>
+              <a href="https://kd-000.github.io/secret-languages">Secret Language Translator</a> <Tag type={'haskell'}></Tag> A collection of Haskell Scripts to convert strings to secret languages.
+            </li>
             <li className='list-items'>
               <a href="https://kd-000.github.io/minimax">Minimax & Alpha Beta Pruning Visualiser</a> <Tag type={'react'}></Tag> A method of viewing a game theory algorithm and the optimisation of it.
             </li>

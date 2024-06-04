@@ -20,8 +20,8 @@ function Tag({type}) {
                 setName("Python")
                 setClassName("tag-python")
               break;
-              case 'java':
-                setName("Java")
+              case 'haskell':
+                setName("Haskell")
                 setClassName("tag-java")
               break;
               case 'qc':
