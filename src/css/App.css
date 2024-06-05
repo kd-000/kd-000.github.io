@@ -49,7 +49,7 @@ a {
   margin: 8px;
 }
 
-.tag-vb {
+.tag-haskell {
   width: fit-content;
   background-color: #7E3F8F;
   color: white;
@@ -88,9 +88,9 @@ a {
   font-size: calc(100% - 1px);
 }
 
-.tag-java {
+.tag-vb {
   width: fit-content;
-  background-color: #f0931c;
+  background-color: #195d93;
   color: #FFF;
   font-weight: 500;
   padding: 5px;

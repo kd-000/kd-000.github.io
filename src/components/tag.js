@@ -22,7 +22,7 @@ function Tag({type}) {
               break;
               case 'haskell':
                 setName("Haskell")
-                setClassName("tag-java")
+                setClassName("tag-haskell")
               break;
               case 'qc':
                 setName("Quantum Computing")
