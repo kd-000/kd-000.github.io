@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from 'react-router-dom';
 import './css/index.css';
@@ -12,42 +12,36 @@ import Quantum1 from './pages/Quantum1';
 import Quantum2 from './pages/Quantum2';
 import Blitz from './pages/Blitz';
 
-
-
-
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: process.env.PUBLIC_URL + "/",
-    element: <App></App>,
+    path: "/",
+    element: <App />,
   },
   {
-    path: process.env.PUBLIC_URL + "/about",
-    element: <About/>
+    path: "/about",
+    element: <About />,
   },
   {
-    path: process.env.PUBLIC_URL + "/cv",
-    element: <CV/>
+    path: "/cv",
+    element: <CV />,
   },
   {
-    path: process.env.PUBLIC_URL + "/quantum1",
-    element: <Quantum1/>
+    path: "/quantum1",
+    element: <Quantum1 />,
   },
   {
-    path: process.env.PUBLIC_URL + "/quantum2",
-    element: <Quantum2/>
+    path: "/quantum2",
+    element: <Quantum2 />,
   },
   {
-    path: process.env.PUBLIC_URL + "/blitz",
-    element: <Blitz/>
+    path: "/blitz",
+    element: <Blitz />,
   },
 ]);
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App/> */}
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

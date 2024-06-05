@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './css/App.css';
 import Banner from './components/banner';
 import Tag from './components/tag';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -29,13 +30,13 @@ function App() {
         <h2 className="h2-header">Writing</h2>
         <ul>
             <li className='list-items'>
-              <a href={process.env.PUBLIC_URL + "/blitz"}>Blitz - Software Documentation</a>
+              <Link to="/blitz">Blitz - Software Documentation</Link>
             </li>
             <li className='list-items'>
-              <a href={process.env.PUBLIC_URL + "/quantum1"}>Quantum Computing - Literature Review</a> <Tag type={'qc'}></Tag>
+              <Link to="/quantum1">Quantum Computing - Literature Review</Link> <Tag type={'qc'}></Tag>
             </li>
             <li className='list-items'>
-              <a href={process.env.PUBLIC_URL + "/quantum2"}>Will Quantum Computing escape the Theoretical?</a> <Tag type={'qc'}></Tag>
+              <Link to="/quantum2">Will Quantum Computing escape the Theoretical?</Link> <Tag type={'qc'}></Tag>
             </li>
           </ul>
           <hr className='main-header-divider-bottom'></hr>
