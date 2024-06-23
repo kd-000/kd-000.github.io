@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './css/App.css';
+import './css/mobile.css'
 import Banner from './components/banner';
 import Tag from './components/tag';
 import { Link } from 'react-router-dom';
